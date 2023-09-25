@@ -77,3 +77,7 @@ D:\Hoc IT CNTT05\Lập trình Web\SachOnline\SachOnline\SachOnline\obj\Debug\Sac
 D:\Hoc IT CNTT05\Lập trình Web\SachOnline\SachOnline\SachOnline\obj\Debug\SachOnline.csproj.CopyComplete
 D:\Hoc IT CNTT05\Lập trình Web\SachOnline\SachOnline\SachOnline\obj\Debug\SachOnline.dll
 D:\Hoc IT CNTT05\Lập trình Web\SachOnline\SachOnline\SachOnline\obj\Debug\SachOnline.pdb
+D:\Hoc IT CNTT05\Lập trình Web\SachOnline\SachOnline\SachOnline\bin\EntityFramework.dll
+D:\Hoc IT CNTT05\Lập trình Web\SachOnline\SachOnline\SachOnline\bin\EntityFramework.SqlServer.dll
+D:\Hoc IT CNTT05\Lập trình Web\SachOnline\SachOnline\SachOnline\bin\EntityFramework.xml
+D:\Hoc IT CNTT05\Lập trình Web\SachOnline\SachOnline\SachOnline\bin\EntityFramework.SqlServer.xml
