@@ -35,5 +35,20 @@ namespace SachOnline.Controllers
             var listSachMoi = LaySachMoi(6);
             return PartialView(listSachMoi);
         }
+        public ActionResult SachTheoChuDe(int id)
+        {
+            var sach = from s in db.SACHes where s.MaCD == id select s;
+            return View(sach);
+        }
+        public ActionResult SachTheoNhaXuatBan(int id)
+        {
+            var sach = from s in db.SACHes where s.MaNXB == id select s;
+            return View(sach);
+        }
+        public ActionResult ChiTietSach(int id)
+        {
+            var sach = from s in db.SACHes where s.MaSach == id select s;
+            return View(sach.Single());
+        }
     }
 }
