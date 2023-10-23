@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using PagedList;
+using PagedList.Mvc;
 
 namespace SachOnline.Controllers
 {
@@ -15,10 +17,12 @@ namespace SachOnline.Controllers
             return db.SACHes.OrderByDescending(a => a.NgayCapNhat).Take(count).ToList();
         }
         // GET: SachOnline
-        public ActionResult Index()
+        public ActionResult Index(int ? page)
         {
-            var listSachMoi = LaySachMoi(6);
-            return View(listSachMoi);
+            int iSize = 3;
+            int iPageNum = (page ?? 1);
+            var sach = db.SACHes.OrderBy(s => s.MaSach);
+            return View(sach.ToPagedList(iPageNum, iSize));
         }
         public ActionResult ChuDePartial()
         {
@@ -35,20 +39,34 @@ namespace SachOnline.Controllers
             var listSachMoi = LaySachMoi(6);
             return PartialView(listSachMoi);
         }
-        public ActionResult SachTheoChuDe(int id)
+        public ActionResult NavBar()
         {
-            var sach = from s in db.SACHes where s.MaCD == id select s;
-            return View(sach);
+            return PartialView();
         }
-        public ActionResult SachTheoNhaXuatBan(int id)
+        public ActionResult SachTheoChuDe(int id, int ? page)
         {
-            var sach = from s in db.SACHes where s.MaNXB == id select s;
-            return View(sach);
+            ViewBag.MaCD = id;
+            int iSize = 3;
+            int iPageNum = (page ?? 1);
+            var sach = db.SACHes.Where(s => s.MaCD == id).OrderBy(s => s.MaSach);
+            return View(sach.ToPagedList(iPageNum, iSize));
+        }
+        public ActionResult SachTheoNhaXuatBan(int id, int ? page)
+        {
+            ViewBag.MaNXB = id;
+            int iSize = 3;
+            int iPageNum = (page ?? 1);
+            var sach = db.SACHes.Where(s => s.MaNXB == id).OrderBy(s => s.MaSach);
+            return View(sach.ToPagedList(iPageNum, iSize));
         }
         public ActionResult ChiTietSach(int id)
         {
             var sach = from s in db.SACHes where s.MaSach == id select s;
             return View(sach.Single());
+        }
+        public ActionResult LoginLogout()
+        {
+            return PartialView();
         }
     }
 }

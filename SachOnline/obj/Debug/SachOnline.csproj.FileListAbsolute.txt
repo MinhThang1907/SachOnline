@@ -81,3 +81,7 @@ D:\Hoc IT CNTT05\Lập trình Web\SachOnline\SachOnline\SachOnline\bin\EntityFra
 D:\Hoc IT CNTT05\Lập trình Web\SachOnline\SachOnline\SachOnline\bin\EntityFramework.SqlServer.dll
 D:\Hoc IT CNTT05\Lập trình Web\SachOnline\SachOnline\SachOnline\bin\EntityFramework.xml
 D:\Hoc IT CNTT05\Lập trình Web\SachOnline\SachOnline\SachOnline\bin\EntityFramework.SqlServer.xml
+D:\Hoc IT CNTT05\Lập trình Web\SachOnline\SachOnline\SachOnline\bin\PagedList.dll
+D:\Hoc IT CNTT05\Lập trình Web\SachOnline\SachOnline\SachOnline\bin\PagedList.Mvc.dll
+D:\Hoc IT CNTT05\Lập trình Web\SachOnline\SachOnline\SachOnline\bin\PagedList.xml
+D:\Hoc IT CNTT05\Lập trình Web\SachOnline\SachOnline\SachOnline\bin\PagedList.Mvc.xml

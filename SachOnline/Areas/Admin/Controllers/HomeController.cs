@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using SachOnline.Models;
 
-namespace SachOnline.Controllers
+namespace SachOnline.Areas.Admin.Controllers
 {
     public class HomeController : Controller
     {
