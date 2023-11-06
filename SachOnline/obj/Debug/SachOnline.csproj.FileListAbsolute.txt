@@ -85,3 +85,41 @@ D:\Hoc IT CNTT05\Lập trình Web\SachOnline\SachOnline\SachOnline\bin\PagedList
 D:\Hoc IT CNTT05\Lập trình Web\SachOnline\SachOnline\SachOnline\bin\PagedList.Mvc.dll
 D:\Hoc IT CNTT05\Lập trình Web\SachOnline\SachOnline\SachOnline\bin\PagedList.xml
 D:\Hoc IT CNTT05\Lập trình Web\SachOnline\SachOnline\SachOnline\bin\PagedList.Mvc.xml
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\SachOnline.dll.config
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\SachOnline.dll
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\SachOnline.pdb
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\Antlr3.Runtime.dll
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\EntityFramework.dll
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\EntityFramework.SqlServer.dll
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\Newtonsoft.Json.dll
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\PagedList.dll
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\PagedList.Mvc.dll
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\System.Web.Helpers.dll
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\System.Web.Mvc.dll
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\System.Web.Optimization.dll
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\System.Web.Razor.dll
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\System.Web.WebPages.Deployment.dll
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\System.Web.WebPages.dll
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\System.Web.WebPages.Razor.dll
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\WebGrease.dll
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\EntityFramework.xml
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\EntityFramework.SqlServer.xml
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\PagedList.xml
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\PagedList.Mvc.xml
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\System.Web.Helpers.xml
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\System.Web.Mvc.xml
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\System.Web.Optimization.xml
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\System.Web.Razor.xml
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\System.Web.WebPages.xml
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\System.Web.WebPages.Deployment.xml
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\System.Web.WebPages.Razor.xml
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\Newtonsoft.Json.xml
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\Antlr3.Runtime.pdb
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\obj\Debug\SachOnline.csproj.AssemblyReference.cache
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\obj\Debug\SachOnline.csproj.CoreCompileInputs.cache
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\obj\Debug\SachOnline.csproj.CopyComplete
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\obj\Debug\SachOnline.dll
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\obj\Debug\SachOnline.pdb

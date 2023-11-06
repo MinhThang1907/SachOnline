@@ -14,7 +14,11 @@ namespace SachOnline.Models
         public string sHinhMinhHoa { get; set; }
         public double dDonGia { get; set; }
         public int iSoLuong { get; set; }
-        public double dThanhTien { get; set; }
+        public double dThanhTien {
+            get {
+                return iSoLuong * dDonGia;
+            } 
+        }
         public GioHang(int ms)
         {
             iMaSach = ms;
@@ -23,7 +27,6 @@ namespace SachOnline.Models
             sHinhMinhHoa = s.HinhMinhHoa;
             dDonGia = double.Parse(s.DonGia.ToString());
             iSoLuong = 1;
-            dThanhTien = iSoLuong * dDonGia;
         }
                 
     }
