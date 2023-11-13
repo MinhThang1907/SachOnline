@@ -118,7 +118,6 @@ C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\System.Web.WebPages
 C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\Newtonsoft.Json.xml
 C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\Antlr3.Runtime.pdb
 C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\obj\Debug\SachOnline.csproj.AssemblyReference.cache
 C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\obj\Debug\SachOnline.csproj.CoreCompileInputs.cache
 C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\obj\Debug\SachOnline.csproj.CopyComplete
 C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\obj\Debug\SachOnline.dll
@@ -172,3 +171,4 @@ C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\roslyn\vbc.exe.conf
 C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\roslyn\vbc.rsp
 C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\roslyn\VBCSCompiler.exe
 C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\thang\OneDrive\Máy tính\SachOnline\SachOnline\obj\Debug\SachOnline.csproj.AssemblyReference.cache
