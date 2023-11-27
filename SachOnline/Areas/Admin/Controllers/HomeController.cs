@@ -7,12 +7,17 @@ using SachOnline.Models;
 
 namespace SachOnline.Areas.Admin.Controllers
 {
+
     public class HomeController : Controller
     {
         QLBanSachEntities1 db = new QLBanSachEntities1();
         public ActionResult Index()
         {
-            return View();
+            if (Session["Admin"] != null)
+            {
+                return View();
+            }
+            return RedirectToAction("DangNhap", "../User");
         }
         [HttpGet]
         public ActionResult Login()

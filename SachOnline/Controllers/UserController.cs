@@ -55,7 +55,7 @@ namespace SachOnline.Controllers
             {
                 ViewData["err6"] = "Số điện thoại không được rỗng";
             }
-            else if (db.KHACHHANGs.SingleOrDefault(n => n.TenDN == sTenDN) != null)
+            else if (db.KHACHHANGs.SingleOrDefault(n => n.TenDN == sTenDN) != null || db.ADMINs.SingleOrDefault(n => n.TenDNAdmin == sTenDN) != null)
             {
                 ViewBag.ThongBao = "Tên đăng nhập đã tồn tại";
             }
@@ -102,12 +102,25 @@ namespace SachOnline.Controllers
                 {
                     ViewBag.ThongBao = "Chúc mừng đăng nhập thành công";
                     Session["TaiKhoan"] = kh;
+                    Session["Admin"] = null;
+                } else if (db.ADMINs.SingleOrDefault(n => n.TenDNAdmin == sTenDN && n.MatKhauAdmin == sMatKhau) != null)
+                {
+                    ADMIN admin = db.ADMINs.SingleOrDefault(n => n.TenDNAdmin == sTenDN && n.MatKhauAdmin == sMatKhau);
+                    Session["TaiKhoan"] = null;
+                    Session["Admin"] = admin;
+                    return RedirectToAction("Index", "Admin/Home");
                 } else
                 {
                     ViewBag.ThongBao = "Tên đăng nhập hoặc mật khẩu không đúng";
                 }
             }
             return View();
+        }
+
+        public ActionResult DangXuat()
+        {
+            Session["TaiKhoan"] = null;
+            return RedirectToAction("Index", "SachOnline");
         }
     }
 }
